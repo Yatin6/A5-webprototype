@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    line-height: 1.5;
+    background: #fad0e2;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+h1,h2{
+  font-family: 'Secular One', sans-serif;
+}
+h3{
+  font-family: 'Bubblegum Sans', cursive;
+}
+.vbottom h3{
+  font-family: 'Secular One', sans-serif;
+}
+ul,
+li {
+    list-style: none;
+}
+button{
+  font-family: 'Secular One', sans-serif;
+}
+button:hover{
+cursor: pointer;
+}
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    padding: 40px 0px;
+}
+header .logo {
+    float: left;
+}
+header .w1200 {
+    overflow: hidden;
+}
+header nav {
+    float: right;
+}
+header nav ul {
+    overflow: hidden;
+}
+header nav ul li{
+    float: left;
+    margin-right: 30px;
+    width: 120px; 
+    padding: 0px 3px;
+}
+header nav ul li button{
+ border: 1px solid #000;
+ background-color: transparent;
+}
+header nav ul li button{
+    padding: 0px 3px;
+    text-align: left;
+    line-height: 1.2;
+    display: block;
+    min-height: 38px;    
+    max-width: 100px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header.primary .logo img {
+    width: 220px;
+}
+header.primary h1 {
+    text-align: center;
+    color: #000;
+    font-size: 55px;
+    margin-top: -15px;
+}
+header.primary .back {
+    background-color: transparent;
+    border: 0;
+    background: url(../images/border.png) no-repeat top center;
+    font-size: 30px;
+    color: #fff;
+    padding: 5px 20px 5px 40px;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+main.pics {
+    margin-top: 60px;
+}
+main.pics ul {
+    overflow: hidden;
+}
+main.pics ul li {
+    float: left;
+    width: 26.666666%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}

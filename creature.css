@@ -1,0 +1,54 @@
+@import "style.css";
+header.primary {
+    background: #63cbe2;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.book {
+    background: url(../images/book.png) no-repeat top center;
+    background-size: 100% 100%;
+    width: 1200px;
+    height: 716px;
+    overflow: hidden;
+}
+.book .bleft {
+    width: 38%;
+    margin: 70px 4% 0px 8%;
+    float: left;
+    position: relative;
+    height: 100%;
+}
+.book .bright {
+    width: 38%;
+    margin: 80px 8% 0px 4%;
+    float: left;
+    position: relative;
+    height: 100%;
+}
+.book .bleft h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.book p {
+    font-size: 14px;
+    line-height: 1.25;
+    margin-bottom: 15px;
+}
+.book a {
+    display: inline-block;
+    position: absolute;
+    bottom: 160px;
+}
+.book a img {
+    width: 50px;
+}
+.book .bleft a {
+    left: 0px;
+    margin-left: -16px;
+}
+.book .bright a {
+    right: 0px;
+    margin-right: -16px;
+    bottom: 170px;
+}

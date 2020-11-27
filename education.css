@@ -1,0 +1,106 @@
+@import "style.css";
+h2{
+  float: left;
+  font-size: 40px;
+  font-weight: 500;
+}
+main .top {
+    overflow: hidden;
+}
+main .top .l {
+    float: left;
+    width: 25%;
+    margin-right: 5%;
+}
+main .top .r {
+    float: right;
+    width: 70%;
+}
+main .top .l img {
+    width: 100%;
+}
+main .top .r p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+main .top .r button {
+    font-family: 'Secular One', sans-serif;
+    display: inline-block;
+    border: 3px solid #8B7EBA;;
+    color: black;
+    background-color: #fad0e2;
+    font-size: 18px;
+    padding: 1px 3px;
+    transition-property: background-color, color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+main .top .r button:hover {
+  background-color: #8B7EBA;
+  color:white;
+}
+main .top .r button:active{
+  transform: scale(0.98);
+}
+main .bottom {
+    border: 2px solid #00c4ee;
+    margin-top: 40px;
+}
+main .bottom li {
+    overflow: hidden;
+}
+main .bottom li .l {
+    float: left;
+    width: 27%;
+    line-height: 159px;
+    text-align: center;
+}
+main .bottom li .l h3 {
+  font-family: 'Secular One', sans-serif;
+  font-size: 20px;
+}
+main .bottom li .c {
+    float: left;
+    width: 27%;
+}
+main .bottom li .r {
+    float: right;
+    width: 46%;
+    overflow: hidden;
+    padding-top: 50px;
+}
+main .bottom li .c img {
+    width: 100%;
+    display: block;
+    opacity: 0.8;
+}
+main .bottom li.l1 {
+    background: #80ccb7;
+}
+main .bottom li.l2 {
+    background: #63cbe2;
+}
+main .bottom li .r h3 {
+    float: left;
+    width: 42%;
+    margin: 0px 14%;
+}
+main .bottom .li .r a:active{
+  transform: scale(0.78);
+}
+main .bottom .l1 .r a:hover{
+  color: #80ccb7;
+}
+main .bottom .l2 .r a:hover{
+  color: #63cbe2;;
+}
+main .bottom li .r a {
+  font-family: 'Secular One', sans-serif;
+    text-align: center;
+    float: left;
+    display: block;
+    padding: 17px;
+    background: #fad0e2;
+    border-radius: 61px/30px;
+    width: 88px;
+}
